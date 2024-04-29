@@ -1,8 +1,29 @@
-# React + Vite
+Crypto Live Ticker Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Overview
+This web application provides real-time cryptocurrency pricing and allows authenticated users to access a dynamic list of crypto contracts (tokens) with their latest market data. The application is built using vite+JSX with Firebase for authentication and websockets for fetching live cryptocurrency data.
 
-Currently, two official plugins are available:
+Features
+Firebase Authentication: Secure user authentication to access the live ticker data.
+Live Crypto Pricing: Real-time price updates for various cryptocurrencies sourced from Pi42 websockets.
+Sortable Data Columns: Users can sort the cryptocurrency data based on the 24-hour change percentage.
+Sharing Functionality: Each row in the ticker includes a share button to send crypto contract details via WhatsApp. If sharing is not supported, there's an option to download the data instead.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Getting Started
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+npm install
+Set up Firebase:
+Create a Firebase project and configure the authentication method.
+Add your project's Firebase configuration to the environment variables.
+npm run dev
+
+
+Deployment
+The application is deployed on Netlify and can be accessed at:https://main--pi42-suraj.netlify.app/
+
+Contact information:
+SURAJ SHARMA
+7838397472
+surajrace21@gmail.com
+https://www.linkedin.com/in/suraj-sharma-239894223/
